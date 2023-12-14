@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "1yib.rust-bundle",
+        "rust-lang.rust-analyzer",
+        "swellaby.vscode-rust-test-adapter",
+        "belfz.search-crates-io",
+        "serayuzgur.crates"
+    ]
+}
