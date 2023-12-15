@@ -1,4 +1,4 @@
 [workspace]
 resolver = "2"
 
-members = ["iced_sample/iced_hello"]
+members = ["iced_sample/*"]
