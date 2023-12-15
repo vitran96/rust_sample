@@ -1,11 +1,16 @@
-use std::error::Error;
-
-use iced::{executor, Element, Settings};
+use iced::{executor, window, Element, Settings};
 
 use iced::{Application, Command, Theme};
 
 pub fn main() -> iced::Result {
-    App::run(Settings::default())
+    App::run(Settings {
+        antialiasing: true,
+        window: iced::window::Settings {
+            position: window::Position::Centered,
+            ..window::Settings::default()
+        },
+        ..Settings::default()
+    })
 }
 
 struct App {}

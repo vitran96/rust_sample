@@ -1,5 +1,5 @@
 [package]
-name = "iced_rs_hello"
+name = "iced_hello"
 version = "0.1.0"
 edition = "2021"
 
